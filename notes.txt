@@ -2,7 +2,27 @@
 BUILDING A MICROSERICES BASED SOCIAL MEDIA APP
 ========================================================================
 
-001: Setting up ExpressJS and static analysis:
+VIDEO 001: Setting up ExpressJS and static analysis:
+===============================================
 
 1. run git init, and create a .gitignore file
 2. copy gitignore template from github
+3. create respository in github
+4. commit changes in terminal and push to master
+5. in root create 'auth' directory and run npm init -y
+6. in package.json rename 'main' to index.ts as we will be using typescript
+7. in package.json add description and initial scripts
+8. create index.ts in auth directory
+9. install packages: 'npm i express @types/express jest supertest ts-jest'
+10. install package: typescript ts-node, & @types/node
+11. install nodemon
+12. in auth root create tsconfig.json file, add code: tsconfig allows you to customize TypeScript configuration
+13. add eslint packages: npm i -D eslint eslint-config-airbnb-base eslint-plugin-import
+14. create eslintrc in root of project, add required environment and rules code
+15. create src directory in auth and move index.ts into it, add 'import express from 'express'; in index.ts 
+16. type 'npm run lint' to check warning: 1:8  warning  'express' is defined but never used  no-unused-vars
+17. install prettier, eslint-config-airbnb-typescript-prettier
+18 add a prettierrc in root, and add code
+19 test prettier run script command (note, disable prettier vscode ext for workspace this to work)
+20. install lint-staged and husky, and add code to package.json
+
