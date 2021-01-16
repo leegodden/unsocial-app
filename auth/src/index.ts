@@ -1,4 +1,4 @@
-// express setup
+// express setup and connection
 import express from 'express';
 
 const app = express();
