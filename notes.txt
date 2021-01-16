@@ -1,0 +1,8 @@
+========================================================================
+BUILDING A MICROSERICES BASED SOCIAL MEDIA APP
+========================================================================
+
+001: Setting up ExpressJS and static analysis:
+
+1. run git init, and create a .gitignore file
+2. copy gitignore template from github
